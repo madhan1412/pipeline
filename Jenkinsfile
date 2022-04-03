@@ -3,9 +3,9 @@
 pipeline{
   agent any
   
-  stages{
+  stages {
     stage("workflow"){
-      steps{
+      steps {
           sh "pwd"
            }
        }
