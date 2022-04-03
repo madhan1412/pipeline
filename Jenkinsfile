@@ -1,13 +1,11 @@
-#!/usr/bin/env groovy
+pipeline {
+    agent any
 
-pipeline{
-  agent any
-  
-  stages {
-    stage("workflow"){
-      steps {
-          sh "pwd"
-           }
-       }
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
     }
 }
