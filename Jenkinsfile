@@ -5,7 +5,7 @@ pipeline{
     
     stage("workflow"){
       steps{
-          echo 'Hello Pipeline'
+          sh 'Hello Pipeline'
            }
        }
     }
