@@ -5,9 +5,8 @@ pipeline{
     
     stage("workflow"){
       steps{
-        
-        echo 'Hello Pipeline'
-      }
+          echo 'Hello Pipeline'
+           }
+       }
     }
-  }
 }
