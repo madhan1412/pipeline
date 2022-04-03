@@ -3,7 +3,7 @@ pipeline{
   
   stages{
     
-    stage{
+    stage("workflow"){
       steps{
         
         echo 'Hello Pipeline'
