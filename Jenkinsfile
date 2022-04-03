@@ -5,6 +5,7 @@ pipeline{
     
     stage{
       steps{
+        
         echo 'Hello Pipeline'
       }
     }
