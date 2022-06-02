@@ -1,4 +1,4 @@
 FROM alpine
 RUN echo "hello world"
 RUN echo -n
-RUN echo "running"
+RUN echo "running on docker build"
